@@ -1,14 +1,38 @@
 {
   "compilerOptions": {
+    /* Basic Options */
+    "incremental": true,
     "target": "esnext",
     "module": "esnext",
-    "moduleResolution": "node",
-    "strict": true,
+    "lib": ["dom","esnext"],
     "jsx": "preserve",
     "sourceMap": true,
-    "lib": ["esnext", "dom"],
-    "types": ["vite/client"],
+
+    /* Strict Type-Checking Options */
+    "strict": true,
+
+    /* Additional Checks */
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noUncheckedIndexedAccess": true,
+
+    /* Module Resolution Options */
+    "moduleResolution": "node",
+    "baseUrl": ".",
+    "paths": { "/@/*": ["src/*"] },
+    "esModuleInterop": true,
+
+    /* Experimental Options */
+    "experimentalDecorators": true,
+
+    /* Advanced Options */
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+
     "plugins": [{ "name": "@vuedx/typescript-plugin-vue" }]
   },
+
+  /* File Inclusion */
+  "exclude": ["node_modules", "dist"],
   "include": ["src/**/*.ts", "src/**/*.d.ts", "src/**/*.tsx", "src/**/*.vue"]
 }
