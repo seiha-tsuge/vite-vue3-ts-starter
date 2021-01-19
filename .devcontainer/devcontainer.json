@@ -11,7 +11,8 @@
 	},
 	"extensions": [
 		"octref.vetur",
-		"dbaeumer.vscode-eslint"
+		"dbaeumer.vscode-eslint",
+		"esbenp.prettier-vscode"
 	],
 	"forwardPorts": [3000]
 }
