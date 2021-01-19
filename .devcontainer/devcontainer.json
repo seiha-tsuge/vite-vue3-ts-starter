@@ -1,23 +1,21 @@
 {
-	"name": "vite-vue3-ts-starter",
-	"dockerComposeFile": [
-		"../docker-compose.yml"
-	],
-	"service": "web",
-	"workspaceFolder": "/app",
-	"settings": { 
-		"editor.tabSize": 2,
-		"terminal.integrated.shell.linux": "/bin/ash",
-		"editor.formatOnSave": true,
-		"editor.defaultFormatter": "esbenp.prettier-vscode",
-		"editor.codeActionsOnSave": {
-			"source.fixAll.eslint": true
-		}
-	},
-	"extensions": [
-		"octref.vetur",
-		"dbaeumer.vscode-eslint",
-		"esbenp.prettier-vscode"
-	],
-	"forwardPorts": [3000]
+  "name": "vite-vue3-ts-starter",
+  "dockerComposeFile": ["../docker-compose.yml"],
+  "service": "web",
+  "workspaceFolder": "/app",
+  "settings": {
+    "editor.tabSize": 2,
+    "terminal.integrated.shell.linux": "/bin/ash",
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    }
+  },
+  "extensions": [
+    "octref.vetur",
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode"
+  ],
+  "forwardPorts": [3000]
 }
