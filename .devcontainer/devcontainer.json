@@ -7,7 +7,12 @@
 	"workspaceFolder": "/app",
 	"settings": { 
 		"editor.tabSize": 2,
-		"terminal.integrated.shell.linux": "/bin/ash"
+		"terminal.integrated.shell.linux": "/bin/ash",
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		}
 	},
 	"extensions": [
 		"octref.vetur",
