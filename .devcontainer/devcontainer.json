@@ -1,0 +1,17 @@
+{
+	"name": "vite-vue3-ts-starter",
+	"dockerComposeFile": [
+		"../docker-compose.yml"
+	],
+	"service": "web",
+	"workspaceFolder": "/app",
+	"settings": { 
+		"editor.tabSize": 2,
+		"terminal.integrated.shell.linux": "/bin/ash"
+	},
+	"extensions": [
+		"octref.vetur",
+		"dbaeumer.vscode-eslint"
+	],
+	"forwardPorts": [3000]
+}
