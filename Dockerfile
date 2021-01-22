@@ -7,4 +7,4 @@ RUN yarn
 
 COPY . /app
 
-CMD ["yarn", "dev"]
+CMD ["/bin/ash"]
